@@ -1,0 +1,25 @@
+.row>* {
+    flex-shrink: unset;
+}
+
+.pd-row{
+    padding-top: 19px;
+}
+
+.monthly{
+    padding-top: 19px;
+}
+
+.revenue{
+    height: 470px;
+    /* width: 630px; */
+}
+
+ @media only screen and (min-width: 992px) and (max-width: 1024px) {
+    /* Add your custom CSS rules here */
+    .revenue{
+        height: 470px;
+    }
+    
+    /* Add more custom CSS rules as needed */
+} 
